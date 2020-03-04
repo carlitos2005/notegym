@@ -1,0 +1,267 @@
+<?php
+
+// Genero: ProgramasProgramacion.com
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "<head>\n";
+echo "	<title>ONGYM</title>\n";
+echo "	<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n";
+echo "    <link type=\"text/css\" rel=\"stylesheet\" href=\"./STATIC/CSS/libs/materialize.css\"  media=\"screen,projection\"/>\n";
+echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n";
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"./static/css/app.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "\n";
+echo "<nav>\n";
+echo "	<div class=\"nav-wrapper\">\n";
+echo "    <a href=\"\" class=\"brand-logo\">GIMNASIO</a>\n";
+echo "    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\n";
+echo "      <li><a href=\"./index.php\">INICIO</a></li>\n";
+echo "      <li><a href=\"./planes.php\">PLANES<span class=\"new badge\">SALE</span></a></li>\n";
+echo "      <li><a href=\"./iniciarsesion.php\" class=\"waves-effect waves-light btn\">INICIAR SESION</a></li>\n";
+echo "    </ul>\n";
+echo "  </div>\n";
+echo "</nav>\n";
+echo "<h1 align=\"center\">ON-GYM</h1>\n";
+echo "<div class=\"div1\" align=\"center\">\n";
+echo "	<img align src=\"https://i.pinimg.com/originals/bd/d3/1f/bdd31fa2f8fb2f9d77eee8c8e84bf39f.gif\">\n";
+echo "	<p class=\"hola\">Buscas una foma de hacer ejercicios y no salir de casa,necesitas rutinas que te enseñen a ejercitarte correctamente, UNETE Y SE PARTE DE ESTA FAMILIA,donde te recomendaremos las mejores rutinas de ejercicios, te brindaremos informacion nutricional,conoceras a personas con los mismos interes que tu y estaras en contacto con profesionales expertos en el tema\n";
+echo "	</p> \n";
+echo "</div>\n";
+echo "<nav id=\"ejercicio\">\n";
+echo "	<h2>EJERCICIO</h2>\n";
+echo "</nav>	\n";
+echo "	<p>El ejercicio es una parte importante de un estilo de vida saludable. El ejercicio previene problemas de salud, aumenta la fuerza, aumenta la energía y puede ayudar a reducir el estrés. También puede ayudar a mantener un peso corporal saludable y reducir el apetito.</p>\n";
+echo "<nav id=\"salud\">\n";
+echo "	<h3>ALIMENTACION</h3>\n";
+echo "</nav>\n";
+echo "	<p>Una alimentación saludable ayuda a proteger la salud y a prevenir enfermedades. Muchos estudios relacionan la falta de una alimentación saludable con enfermedades crónicas (cardiovasculares, obesidad, diabetes, cáncer, etc), demostrándose así que una alimentación inapropiada es uno de los principales factores determinantes del desarrollo de estas enfermedades.\n";
+echo "\n";
+echo "Una alimentación sana permite por un lado que nuestro organismo funcione con normalidad, que cubra nuestras necesidades fisiológicas básicas, y por otro, reduce el riesgo de padecer enfermedades a corto y largo plazo. No se trata de una relación directa de causa-efecto, pero sí contribuye a aumentar el riesgo de aparición y desarrollo de dichas enfermedades.</p>\n";
+echo "\n";
+echo "        <!-- Page Content goes here -->\n";
+echo "     \n";
+echo "\n";
+echo "</body>\n";
+echo "</html>\n";
+
+?>
+----------------------------------------------------------------------------------------------
+<?php
+
+// Genero: ProgramasProgramacion.com
+echo "<!DOCTYPE html>\n";
+echo "<html lang=\"es.co\">\n";
+echo "<head>\n";
+echo "  <meta charset=\"utf-8\">\n";
+echo "  <title>ON-GYM</title>\n";
+echo "  <link rel=\"shurtcut icon\" href=\"./STATIC/IMAGES/gym.jpg\">\n";
+echo "  <link rel=\"stylesheet\" type=\"text/css\" href=\"./STATIC/CSS/estilos.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "  <div class=\"container\">\n";
+echo "    <img src=\"./STATIC/IMAGES/lol.png\">\n";
+echo "    <h1>Iniciar sesión</h1>\n";
+echo "    <form action=\"./principal.php\">\n";
+echo "      <div class=\"form-input\">\n";
+echo "        <input type=\"text\" name=\"Usuario\" placeholder=\"Ingrese Usuario\">\n";
+echo "      </div>\n";
+echo "      <div class=\"form.input\">\n";
+echo "        <input type=\"password\" name=\"Contraseña\" placeholder=\"Ingrese Contraseña\">\n";
+echo "      </div>\n";
+echo "      <nav href=\"./principal.php\">\n";
+echo "      <input type=\"submit\" name=\"Entrar\" value=\"Entrar\" class=\"btn-login\" >\n";
+echo "      </nav>\n";
+echo "      <br>\n";
+echo "      <a href=\"#\">Olvide Contraseña</a>\n";
+echo "      </br>\n";
+echo "\n";
+echo "    </form>\n";
+echo "    \n";
+echo "  </div>\n";
+echo "\n";
+echo "</body>\n";
+echo "</html>\n";
+
+?>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<?php
+
+// Genero: ProgramasProgramacion.com
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "<head>\n";
+echo "	<title>Formato de pago </title>\n";
+echo "	<link rel=\"stylesheet\" type=\"text/css\" href=\"./STATIC/CSS/estilos.css\">\n";
+echo "	<link rel=\"stylesheet\" type=\"text/css\" href=\"/STATIC/CSS/estilos.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "	<div class=\"container\">\n";
+echo "<h1>Tipo De Pago </h1>\n";
+echo "		<form action=\"./index.php\">\n";
+echo "			<div class=\"form-input\">\n";
+echo "				<input type=\"text\" name=\"Usuario\" placeholder=\"Ingrese Tipo De Tarjeta\">\n";
+echo "			</div>\n";
+echo "			<div class=\"form.input\">\n";
+echo "				<input type=\"password\" name=\"Contraseña\" placeholder=\"Ingrese Contraseña\">\n";
+echo "			</div>\n";
+echo "			<h1>\n";
+echo "				Datos De Tipo De Pago Con Tarjeta\n";
+echo "				<input type=\"text\" name=\"Nro de Tarjeta\" placeholder=\"Nro de Tarjeta\">\n";
+echo "			</h1>\n";
+echo "			<h1> Caducidad\n";
+echo "			<input type=\"text\" name=\"caducidad\" placeholder=\"caducidad\">\n";
+echo "			</h1>\n";
+echo "			<h1> Codigo de Seguridad/cvv2\n";
+echo "			<input type=\"text\" name=\"Codigo de Seguridad/cvv2\" placeholder=\"Codigo de Seguridad/cvv2\">\n";
+echo "			</h1>\n";
+echo "			<h1>Titular De La Tarjeta\n";
+echo "			<input type=\"text\" name=\"Titular de la Tarjeta\" placeholder=\"Titular de la Tarjeta\">\n";
+echo "			</h1>\n";
+echo "			<h1> Direcciòn\n";
+echo "			<input type=\"text\" name=\"Direccion\" placeholder=\"Direccion\">\n";
+echo "			</h1>\n";
+echo "			<h1> Ciudad\n";
+echo "			<input type=\"text\" name=\"Ciudad\" placeholder=\"Ciudad\">\n";
+echo "			</h1>\n";
+echo "			<h1> Direcciòn\n";
+echo "			<input type=\"text\" name=\"Direccion\" placeholder=\"Direccion\">\n";
+echo "			</h1>\n";
+echo "			<h1> Provincia\n";
+echo "			<input type=\"text\" name=\"Provincia\" placeholder=\"Provincia\">\n";
+echo "			</h1>\n";
+echo "			<h1> Codigo Postal\n";
+echo "			<input type=\"text\" name=\"Codigo Postal\" placeholder=\"Codigo Postal\">\n";
+echo "			</h1>\n";
+echo "				<input type=\"submit\"  name=\"Entrar\" value=\"Entrar\" class=\"btn-login\" >			\n";
+echo "			<br>\n";
+echo "			<a href=\"#\">Olvide Contraseña</a>\n";
+echo "			<br><br>\n";
+echo "			<p>No tengo Cuenta?<a href=\"#\">Registrar</a>\n";
+echo "		</form>\n";
+echo "	</div>\n";
+echo "</body>\n";
+echo "</html>\n";
+
+?>
+----------------------------------------------------------------------------------------------
+<?php
+
+// Genero: ProgramasProgramacion.com
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "<head>\n";
+echo "	<title>ONGYM</title>\n";
+echo "	<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n";
+echo "    <link type=\"text/css\" rel=\"stylesheet\" href=\"./STATIC/CSS/libs/materialize.css\"  media=\"screen,projection\"/>\n";
+echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n";
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"./static/css/app.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "\n";
+echo "<nav>\n";
+echo "	<div class=\"nav-wrapper\">\n";
+echo "    <a href=\"\" class=\"brand-logo\">GIMNASIO</a>\n";
+echo "    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\n";
+echo "      <li><a href=\"./index.php\">INICIO</a></li>\n";
+echo "      <li><a href=\"./planes.php\">PLANES<span class=\"new badge\">PRECIOS</span></a></li>\n";
+echo "      <li><a href=\"./iniciarsesion.php\" class=\"waves-effect waves-light btn\">INICIAR SESION</a></li>\n";
+echo "    </ul>\n";
+echo "  </div>\n";
+echo "</nav>\n";
+echo "<h1 align=\"center\">ON-GYM</h1>\n";
+echo "\n";
+echo "  <div class=\"row\">\n";
+echo "    <div class=\"col s12 m6\">\n";
+echo "      <div class=\"card\">\n";
+echo "        <div class=\"card-image\">\n";
+echo "          <img src=\"https://img.menzig.style/a/0000/317-h0.jpg\">\n";
+echo "          <span class=\"card-title\">PLAN BASICO</span>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-content\">\n";
+echo "          <p>INSCRIBITE EN EL PLAN GRATIS PARA TENER LA INFORMACION BASICA DE CUIDAR TU ALIMENTACION Y ALGUNAS RUTINAS PARA TU BIENESTAR FISICO</p>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-action\">\n";
+echo "          <a href=\"#\">INSCRIBIRME</a>\n";
+echo "        </div>\n";
+echo "      </div>\n";
+echo "    </div>\n";
+echo "    <div class=\"col s12 m6\">\n";
+echo "      <div class=\"card\">\n";
+echo "        <div class=\"card-image\">\n";
+echo "          <img src=\"https://e.rpp-noticias.io/normal/2017/09/25/262226_488669.jpg\">\n";
+echo "          <span class=\"card-title\">PLAN PREMIUM</span>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-content\">\n";
+echo "          <p>INSCRIBITE EN EL PLAN PREMIUM PARA TENER LA INFORMACION COMPLETA DE CUIDAR TU ALIMENTACION Y RUTINAS DE ENTRENADORES VIRTUALES</p>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-action\">\n";
+echo "          <a href=\"#\">INSCRIBIRME</a>\n";
+echo "        </div>\n";
+echo "      </div>\n";
+echo "    </div>\n";
+echo "  </div>\n";
+echo "\n";
+echo "\n";
+echo "\n";
+
+?>
+-----------------------------------------------------------------------------------------------
+<?php
+
+// Genero: ProgramasProgramacion.com
+echo "<!DOCTYPE html>\n";
+echo "<html>\n";
+echo "<head>\n";
+echo "	<title>ONGYM</title>\n";
+echo "	<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n";
+echo "    <link type=\"text/css\" rel=\"stylesheet\" href=\"./STATIC/CSS/libs/materialize.css\"  media=\"screen,projection\"/>\n";
+echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n";
+echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"./static/css/app.css\">\n";
+echo "</head>\n";
+echo "<body>\n";
+echo "\n";
+echo "<nav>\n";
+echo "	<div class=\"nav-wrapper\">\n";
+echo "    <a href=\"\" class=\"brand-logo\">GIMNASIO</a>\n";
+echo "    <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\n";
+echo "      <li><a href=\"./index.php\">INICIO</a></li>\n";
+echo "      <li><a href=\"./planes.php\">PLANES<span class=\"new badge\">SALE</span></a></li>\n";
+echo "      <li><a href=\"./iniciarsesion.php\" class=\"waves-effect waves-light btn\">INICIAR SESION</a></li>\n";
+echo "    </ul>\n";
+echo "  </div>\n";
+echo "</nav>\n";
+echo "<h1 align=\"center\">ON-GYM</h1>\n";
+echo "<div class=\"row\">\n";
+echo "    <div class=\"col s12 m6\">\n";
+echo "      <div class=\"card\">\n";
+echo "        <div class=\"card-image\">\n";
+echo "          <img src=\"https://i.pinimg.com/originals/70/51/95/70519537564abf7f4cc606a23976b74b.jpg\">\n";
+echo "          <span class=\"card-title\">RECOMENDADO PARA EL CARDIO</span>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-content\">\n";
+echo "          <p>RUTINA SN</p>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-action\">\n";
+echo "          <a href=\"#\">INGRESAR</a>\n";
+echo "        </div>\n";
+echo "      </div>\n";
+echo "    </div>\n";
+echo "    <div class=\"col s12 m6\">\n";
+echo "      <div class=\"card\">\n";
+echo "        <div class=\"card-image\">\n";
+echo "          <img src=\"https://media.diariolasamericas.com/adjuntos/216/imagenes/000/448/0000448972.jpg\">\n";
+echo "          <span class=\"card-title\">RECOMENDADO PARA LA MASA MUSCULAR</span>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-content\">\n";
+echo "          <p>RUTINA M</p>\n";
+echo "        </div>\n";
+echo "        <div class=\"card-action\">\n";
+echo "          <a href=\"#\">INGRESAR</a>\n";
+echo "        </div>\n";
+echo "      </div>\n";
+echo "    </div>\n";
+echo "  </div>\n";
+
+?>
+----------------------------------------------------------------------------------------------
